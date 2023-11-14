@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Car', 'Vehicle-registration-plate']
+
+roboflow:
+  workspace: school-si9fz
+  project: project-u6ax4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-si9fz/project-u6ax4/dataset/1
